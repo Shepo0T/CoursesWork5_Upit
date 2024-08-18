@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "courseswork5-upit"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr <zemacohoznik@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2-binary = "^2.9.9"
+requests = "^2.32.3"
+prettytable = "^3.11.0"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
